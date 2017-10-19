@@ -3,11 +3,14 @@ function  saySomething(phrase) {
 
 }
 
-function getPhraseLength(phrase) {
-    var l = phrase.length;
+function getPhraseLength(phrase, another) {
+    var l = phrase.length + another.length;
     return l;
 }
 
-var thisLength = getPhraseLength("length")
+var p1 = "long";
+var p2 = "short";
+
+var thisLength = getPhraseLength(p1, p2);
 
 console.log(thisLength);
