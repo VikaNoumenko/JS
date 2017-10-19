@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a83fbd67-3abc-44de-b96c-1983729c6f71" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/js/js.html" afterPath="$PROJECT_DIR$/src/main/java/js/js.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/js/main.js" afterPath="$PROJECT_DIR$/src/main/java/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="272">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -71,8 +70,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="288" />
-    <option name="y" value="147" />
+    <option name="x" value="515" />
+    <option name="y" value="113" />
     <option name="width" value="1064" />
     <option name="height" value="700" />
   </component>
@@ -594,15 +593,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508430101726</updated>
-      <workItem from="1508430107311" duration="4472000" />
+      <workItem from="1508430107311" duration="6569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4472000" />
+    <option name="totallyTimeSpent" value="6569000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="288" y="147" width="1064" height="700" extended-state="0" />
+    <frame x="515" y="113" width="1064" height="700" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -664,8 +663,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
