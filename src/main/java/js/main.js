@@ -1,5 +1,5 @@
+function Log() {
+    console.log("hello")
 
-var message = "This is message";
-alert(message);
-
-console.log("log");
+}
+Log();
