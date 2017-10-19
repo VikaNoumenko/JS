@@ -1,13 +1,28 @@
+var pageCounter = 1;
+
+var animalContainer = document.getElementById("animal-info");
+
 var btn = document.getElementById("btn");
 
 btn.addEventListener("click" ,function () {
     var request = new XMLHttpRequest();
-    request.open('GET', 'https://learnwebcode.github.io/json-example/animals-1.json');
+    request.open('GET', 'https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json');
     request.onload = function () {
         var data = JSON.parse(request.responseText);
-        console.log(data[0]);
+        renderHTML(data);
     };
     request.send();
+    pageCounter++;
+
 });
 
+
+function renderHTML(data) {
+    var htmlString = "";
+
+    for(i = 0; i < data.length; i++){
+        htmlString += "<p>" + data[i].name + "is a " + data[i].species + ".</p>";
+    }
+    animalContainer.insertAdjacentHTML('beforeend', htmlString);
+}
 
