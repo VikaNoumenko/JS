@@ -1,5 +1,3 @@
-function printName(name) {
-    console.log("hello,", name);
-
+function buttonClick(){
+    console.log("Button clicked");
 }
-printName("JS");
