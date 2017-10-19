@@ -1,5 +1,5 @@
-function Log() {
-    console.log("hello")
+function printName(name) {
+    console.log("hello,", name);
 
 }
-Log();
+printName("JS");
