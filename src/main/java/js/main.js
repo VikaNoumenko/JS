@@ -1,13 +1,6 @@
-
-var pets = [{
-    "name " : " cat",
-    "food" : "tuna"
-},
-    {"name1 " : " cat1",
-        "food1" : "tuna1"},
-
-    {"name2 " : " cat2",
-        "food2" : "tuna2"}
-]
-
-pets[1].food
+var request = new XMLHttpRequest();
+request.open('GET', 'https://learnwebcode.github.io/json-example/animals-1.json');
+request.onload = function () {
+    console.log(request.responseText);
+};
+request.send();
