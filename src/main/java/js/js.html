@@ -2,25 +2,23 @@
 <html>
 <body>
 
-<p>Enter a number and click OK:</p>
+<p>Creating and using an object method.</p>
 
-<input id="id1" type="number" min="100" max="300" required>
-<button onclick="myFunction()">OK</button>
-
-<p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
+<p>A method is actually a function definition stored as a property value.</p>
 
 <p id="demo"></p>
 
 <script>
-    function myFunction() {
-        var inpObj = document.getElementById("id1");
-        if (inpObj.checkValidity() == false) {
-            document.getElementById("demo").innerHTML = inpObj.validationMessage;
-        } else {
-            document.getElementById("demo").innerHTML = "Input OK";
+    var person = {
+        firstName: "John",
+        lastName : "Doe",
+        id       : 5566,
+        fullName : function() {
+            return this.firstName + " " + this.lastName;
         }
-    }
-</script>
+    };
 
+    document.getElementById("demo").innerHTML = person.fullName();
+</script>
 </body>
 </html>
